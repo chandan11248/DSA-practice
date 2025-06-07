@@ -64,7 +64,7 @@ int main() {
         Length=strlen(x);
         for(i=0;i<Length;i++)
         {
-            cout<<x[i];
+            cout<<x[i]<<endl;
         }
 
         
