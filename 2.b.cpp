@@ -74,7 +74,7 @@ string infixToPrefix(string infix) {
 
 // Step 5: Example usage
 int main() {
-    string infix = "(A-B/C)*(A/K-L)";
+    string infix = "a+c(s)-r";
     cout << "Infix: " << infix << endl;
     cout << "Prefix: " << infixToPrefix(infix) << endl;
     return 0;
